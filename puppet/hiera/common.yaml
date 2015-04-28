@@ -1,0 +1,7 @@
+---
+perforce::server::user: 
+perforce::server::password: 
+perforce::server::p4root:
+perforce::server::p4journal:
+perforce::server::p4err:
+perforce::server::p4port:

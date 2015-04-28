@@ -1,0 +1,10 @@
+GIT
+  remote: git://github.com/hasyimibhar/puppet-perforce.git
+  ref: master
+  sha: 83b2d8f8f05d1f6ffa7bcb62fc80b317e9971787
+  specs:
+    puppet-perforce (0.0.1)
+
+DEPENDENCIES
+  puppet-perforce (>= 0)
+
