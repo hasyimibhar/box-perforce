@@ -1,3 +1,6 @@
 .vagrant
 packer_cache
 vars.json
+*.tfstate
+*.tfstate.backup
+*.tfvars
