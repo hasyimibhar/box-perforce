@@ -22,7 +22,8 @@
     },
     {
       "type": "shell",
-      "script": "bootstrap.sh"
+      "script": "bootstrap.sh",
+      "pause_before": "30s"
     },
     {
       "type": "shell",
