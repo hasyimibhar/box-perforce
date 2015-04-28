@@ -1,7 +1,9 @@
 {
   "variables": {
     "aws_access_key": "",
-    "aws_secret_key": ""
+    "aws_secret_key": "",
+    "perforce_user_password": "password",
+    "environment": ""
   },
   "provisioners": [
     {
@@ -42,7 +44,7 @@
       "module_paths": ["puppet/modules"],
       "staging_directory": "/tmp/puppet",
       "facter": {
-        "environment": "local",
+        "environment": "{{user `environment`}}",
         "hiera_data_dir": "/tmp/puppet/hiera"
       }
     }

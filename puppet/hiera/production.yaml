@@ -1,0 +1,7 @@
+---
+perforce::server::user: perforce
+perforce::server::password: "%{::perforce_user_password}"
+perforce::server::p4root: /var/local/p4root
+perforce::server::p4journal: /var/log/journal
+perforce::server::p4err: /var/log/p4err
+perforce::server::p4port: 1666
